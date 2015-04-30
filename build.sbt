@@ -2,13 +2,11 @@ import AssemblyKeys._
 
 assemblySettings
 
-jarName in assembly := "uniq_mapred.jar"
-
-name := "distinct_line"
+name := "uniq_mapred"
 
 version := "1.0"
 
-scalaVersion := "2.10.3"
+scalaVersion := "2.11.6"
 
 libraryDependencies ++= Seq(
   "org.apache.hadoop" % "hadoop-client" % "2.0.0-mr1-cdh4.0.1" % "provided",
